@@ -116,9 +116,19 @@
     .welcome-quote {
         font-size: 1.15rem;
         padding: 1.5rem 1.25rem;
+        
     }
 
     .welcome-closing {
         font-size: 1rem;
+    }
+
+    .quote-mark {
+    font-size: 3rem;
+    vertical-align: -1rem;
+    }
+
+    .welcome-quote {
+    font-size: 1.1rem;
     }
 }

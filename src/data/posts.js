@@ -1,3 +1,5 @@
+import plantImage from "../assets/plant.jpeg";
+
 export const posts = [
     {
     id: 1,
@@ -689,6 +691,361 @@ export const posts = [
         thumbnail: "https://images.unsplash.com/photo-1519681393784-d120267933ba?w=800",
         publishedDate: "2026-04-28",
         readTime: 7,
+        views: 0,
+        featured: false
+    },
+
+    {
+    id: 9,
+    title: "Rooted and Built Up",
+    slug: "rooted-and-built-up",
+    author: "Edith Akhere Oise",
+    category: "article",
+    subCategory: "parenting",
+    tags: ["Parenting", "Children", "Confidence", "Identity", "Christian Living", "Purpose"],
+    excerpt: "Train up a child in the way he should go — but what does that really mean? It's less about forcing a standard path and more about discovering, guiding, and nurturing who they were created to be.",
+    content: `
+        <section class="scripture-opening">
+            <p><strong>Proverbs 22:6 AMPC</strong></p>
+            <blockquote>
+                <p><em>"Train up a child in the way he should go [and in keeping with his individual gift or bent], and when he is old he will not depart from it. [Eph. 6:4; II Tim. 3:15.]"</em></p>
+            </blockquote>
+        </section>
+
+        <p>The above scripture is one of the most quoted (and sometimes misunderstood) principles about parenting.</p>
+
+        <p>All over the world, people have taught on it, preached with it and learned from it. Here, we are going to unpack it in a way that connects deeply with raising confident and grounded children; especially focusing on "individual gift" and "bent."</p>
+
+        <h3>What does the scripture really imply when it says, "Train up a child in the way he should go…"?</h3>
+
+        <p>This is not just about teaching morals or discipline. The original sense of the verse points toward dedication and intentional direction. It's talking about launching a child onto a path that fits who they are created for and what they are designed to be. It's less about forcing a standard path, and more about <em>discovering, guiding and nurturing.</em></p>
+
+        <p>Every child comes with a built-in wiring in a mix of:</p>
+        <ul>
+            <li><strong>Talents:</strong> What they do easily.</li>
+            <li><strong>Interests:</strong> What draws them naturally.</li>
+            <li><strong>Temperament:</strong> How they respond to the world.</li>
+        </ul>
+
+        <p>For example, one child may be expressive, good at storytelling and dramatic. Another may be analytical, quiet, and observant. Yet, another may be hands-on, energetic, exploratory.</p>
+
+        <p>You see the unique differences?</p>
+
+        <p>Training a child "in the way he should go" means you don't raise all children the same way. You don't measure all children by the same success standard.</p>
+
+        <p>This is because every child is different.</p>
+
+        <p>Understanding this and choosing to do this matters a lot as it builds their confidence.</p>
+
+        <p>When a child's gift is recognized and nurtured, they feel seen, capable and develop authentic confidence.</p>
+
+        <p>On the other hand, when natural gifts and talents are ignored, their confidence becomes fragile. The probability of feeling "not enough" becomes very high and even when they do perform, they do not feel fulfilled and then life begins to feel forced. Dissatisfaction and frustration sets in.</p>
+
+        <h3>Now, what Does "Bent" mean?</h3>
+
+        <p>"Bent" refers to a child's natural inclination. Their internal leanings. Think of it like a growing plant. You don't force it into a shape that breaks or distorts it, instead you support its natural direction so it grows strong.</p>
+
+        <img
+            src="${plantImage}"
+            alt="A plant growing naturally toward the light"
+            style="width:100%; border-radius:10px; margin:1.5rem 0; object-fit:cover; max-height:400px;"
+        />
+
+        <p>As seen in the above picture, supporting the plant's natural inclination might mean observing its natural inclination towards the sun and taking it out of the shade into the sun where it would flourish better.</p>
+
+        <p>A child's "bent" includes:</p>
+        <ul>
+            <li><strong>Personality:</strong> Introverted versus extroverted.</li>
+            <li><strong>Learning style:</strong> Visual, verbal, hands-on.</li>
+            <li><strong>Emotional wiring:</strong> Sensitive, bold, cautious.</li>
+        </ul>
+
+        <p>At this juncture, I believe it's necessary to state that "Bent" is not rebellion. It is not something to suppress, but rather something to understand and guide. It is something we need to train the children to recognise, embrace, and grow fully into.</p>
+
+        <h3>Training vs. Controlling</h3>
+
+        <p>A major mistake in parenting is misrepresenting training as controlling.</p>
+
+        <blockquote>
+            <p><em>Training is guiding with awareness, while controlling means forcing conformity.</em></p>
+        </blockquote>
+
+        <p>Training means seeking to understand who the child is becoming. Controlling is insisting on the child becoming what you want him to be.</p>
+
+        <p>Only one of these builds confidence. And that's <strong>TRAINING.</strong></p>
+
+        <p>Confidence doesn't come from constant praise. It comes from the effective alignment of:</p>
+        <ul>
+            <li><strong>Identity:</strong> Who I am.</li>
+            <li><strong>Ability:</strong> What I can do.</li>
+            <li><strong>Acceptance:</strong> I am valued as I am.</li>
+        </ul>
+
+        <p>When you train according to gift and bent:</p>
+        <ul>
+            <li>The child develops self-confidence. They learn that the way they think and feel has value.</li>
+            <li>The child becomes resilient. And because they're not trying to be someone else, they are able to push themselves. They embrace who they are and seek to make the most of time and chances.</li>
+            <li>The child learns to own their path. Not living for approval, but from purpose.</li>
+        </ul>
+
+        <div class="divider"></div>
+
+        <h3>Enough preaching, let's go practical. In what ways do we apply this? How do we achieve all we have said above?</h3>
+
+        <h4>1. Observe before you instruct.</h4>
+        <p>Watch so as to know:</p>
+        <ul>
+            <li>What excites them.</li>
+            <li>What frustrates them.</li>
+            <li>What they return to naturally.</li>
+        </ul>
+
+        <h4>2. Ask, don't assume.</h4>
+        <p>So, instead of saying: <em>"You should like this."</em></p>
+        <p>Try asking: <em>"What do you enjoy about this?"</em></p>
+
+        <h4>3. Adapt your parenting style to suit each child.</h4>
+        <p>For instance:</p>
+        <ul>
+            <li>A bold child needs guidance in restraint.</li>
+            <li>A shy child needs encouragement and not pressure.</li>
+            <li>A curious child needs guided exploration, not restriction.</li>
+        </ul>
+
+        <h4>4. Affirm effort aligned with their gift.</h4>
+        <p>Do not focus only on results. Encourage every effort geared towards their gifts. For example:</p>
+        <ul>
+            <li><em>"I love how you solved that problem."</em></li>
+            <li><em>"Well done, you explained that really clearly."</em></li>
+        </ul>
+        <p>Focusing more on the journey will yield more success than demanding immediate results.</p>
+
+        <h4>5. Create room for expression.</h4>
+        <p>Confidence grows where there is permission to be.</p>
+
+        <h4>6. Ensure that you give the necessary balance.</h4>
+        <p>Recognizing "gift and bent" does NOT mean:</p>
+        <ul>
+            <li>No discipline</li>
+            <li>No correction</li>
+            <li>No boundaries</li>
+        </ul>
+        <p>Rather it entails that you shape character without crushing identity.</p>
+        <p>So, a child can be naturally strong-willed, but taught humility. They can be naturally quiet, but taught courage and boldness. They can be naturally creative, but taught structure and discipline.</p>
+
+        <div class="divider"></div>
+
+        <p>So, from the scripture in view, the expectation is to train them right, and they will never go astray — and this means to train them in alignment with who they are, and that foundation will stay with them for life.</p>
+
+        <blockquote>
+            <p><em>Confidence built this way is deep, stable, rooted, and not easily shaken.</em></p>
+        </blockquote>
+        `,
+        thumbnail: "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=800",
+        publishedDate: "2026-05-03",
+        readTime: 7,
+        views: 0,
+        featured: false
+    },
+    {
+        id: 10,
+        title: "The Prophetic Season of Praise (1)",
+        slug: "the-prophetic-season-of-praise-1",
+        author: "Pastor Henry Oise",
+        category: "article",
+        subCategory: "covenant thought",
+        tags: ["Prophecy", "Praise", "Babylon", "Prayer", "Scripture", "Covenant"],
+        excerpt: "God has a purpose for every season. This is a season of forceful advancement in the purposes of God — and God will be judging the works of darkness and the systems of Babylon. Whenever He judges, His people praise.",
+        content: `
+            <section class="scripture-opening">
+                <p><strong>SCRIPTURE TEXT</strong></p>
+                <p>Read <strong>Revelation 19:1–10; Exodus 15:1–21</strong></p>
+            </section>
+
+            <h3>THOUGHT</h3>
+
+            <p>God has a purpose for every season. 2024 is a season or year of forceful advancement in the purposes of God. <strong>God will be judging the works of darkness and the systems of Babylon this season.</strong></p>
+
+            <h3>What is Babylon?</h3>
+
+            <p>Prophetically speaking, <strong>Babylon is the system of the world that works with the kingdom of darkness to advance satanic and demonic purposes on the earth.</strong> Normally the Bible uses Egypt as a metaphor for the world and the spirit of the 🌍 world, but when it comes to the last days, Babylon becomes the metaphor God uses to describe the world and the spirit of the 🌎 world that is working with the kingdom of darkness.</p>
+
+            <p>God said to me, <strong>"Whenever I judge the systems of the world my people Praise Me."</strong></p>
+
+            <p>When God judged Egypt at the Red Sea, Miriam and the other women led Israel to praise God. Well in the book of Revelation (Revelation 17:1–9 and Revelation 19:1–10), <strong>when God judged Babylon, the people of God, the 24 elders and the 4 living creatures began to shout Hallelujah.</strong></p>
+
+            <p>January is a season of <strong>Prophetic Praise</strong> because <em>God wants to begin the year by judging Babylon on the earth and in your life.</em></p>
+
+            <div class="divider"></div>
+
+            <h3>PRAYER POINTS</h3>
+
+            <p><strong>1.</strong> Sing the Song of Miriam, make it a prophetic song as you prophetically declare that <strong>"all the Egyptians of 2023 in your life be swallowed up into the sea of the blood of Jesus":</strong></p>
+
+            <blockquote>
+                <p><em>Then Miriam the prophetess, the sister of Aaron, took a timbrel in her hand, and all the women went out after her with timbrels and dancing. And Miriam answered them, Sing ye to the Lord, for he hath triumphed gloriously; the horse and his rider hath he thrown into the sea.</em></p>
+                <p><strong>— Exodus 15:20–21</strong></p>
+            </blockquote>
+
+            <p><strong>2.</strong> Prophetically see the system of Babylon working with the domain of darkness judged in 2024. Make a prophetic shout of Hallelujah (a minimum of 5 times) and declare: <em>"Hallelujah! Salvation and glory and power belong to God — the power of Babylon to cause me to sin, to be sick, and sleep spiritually is judged in my life in Jesus name."</em></p>
+
+            <p><strong>3.</strong> From now till the end of January, I want you to shout <strong>"Hallelujah!!!!"</strong> (a minimum of 5 times) once you wake up. You can shout it out or do it under your breath (make sure your spirit is shouting though). Let it be the first thing you do once you awake.</p>
+
+            <div class="divider"></div>
+
+            <h3>CONFESSION</h3>
+
+            <blockquote class="lyrics">
+                <p><em>"Hallelujah! Salvation and glory and power belong to God — the power of Babylon to cause me to sin, to be sick, and sleep spiritually is judged. Hallelujah!!!!"</em></p>
+            </blockquote>
+        `,
+        thumbnail: "https://placehold.co/800x400/1a1a2e/ffffff?font=montserrat&text=THE+PROPHETIC+SEASON+OF+PRAISE",
+        publishedDate: "2026-02-02",
+        readTime: 4,
+        views: 0,
+        featured: false
+    },
+
+    {
+    id: 11,
+    title: "The Prophetic Season of Praise (2) — Let Everything That Has Breath Start Praising God",
+    slug: "the-prophetic-season-of-praise-2",
+    author: "Pastor Henry Oise",
+    category: "article",
+    subCategory: "covenant thought",
+    tags: ["Prophecy", "Praise", "Prayer", "Declarations", "Scripture", "Covenant"],
+    excerpt: "When you enter a prophetic season, things are not suggested, they are commanded. This is a season of Prophetic Praise — and everything that has breath is expected to participate.",
+    content: `
+        <section class="scripture-opening">
+            <p><strong>SCRIPTURE TEXTS</strong></p>
+            <p>Read <strong>Psalm 150:1–6; Psalm 98:1–9; Luke 19:37–40</strong></p>
+        </section>
+
+        <h3>THOUGHT</h3>
+
+        <p>Yesterday we began looking at the <strong>protocols</strong> of a <strong>Prophetic season</strong> vis-à-vis what God said He will be doing this season — <strong>judging the works of darkness and the systems of Babylon.</strong></p>
+
+        <p>We will be taking our thought further on the protocols of a prophetic season of judgement — <strong>God's people navigate it by praising God.</strong></p>
+
+        <blockquote>
+            <p><em>When you enter a prophetic season, things are not suggested, they are commanded. Things are not pleaded for, they are compelled.</em></p>
+        </blockquote>
+
+        <p><strong>In a Prophetic season you are at liberty to use the WORD OF GOD for DECREES and to make DECLARATIONS.</strong></p>
+
+        <p>This month is a season of Prophetic Praise — as you Praise God, you are expected to command everything that has breath around you to begin to PRAISE GOD (first your inner self, its cells, its organs, and systems, then everything outside — your environment, people, the 🌍 earth, the sky, the heavens etc).</p>
+
+        <p>In <strong>Psalm 150:6</strong> <em>there is no convenient loophole for any living thing (within and outside you) to avoid participating with passion and energy in the praise of God!</em> The Lord Jesus said, <strong>"if the living will not cooperate, the non-living (stones) will praise the Lord (Luke 19:40)."</strong></p>
+
+        <p>So starting with you, command everything that has breath to praise the Lord.</p>
+
+        <div class="divider"></div>
+
+        <h3>PRAYER POINTS</h3>
+
+        <p><strong>1.</strong> Take out time to Praise the Lord seriously (duration should be as long as you are led).</p>
+
+        <p><strong>2.</strong> Declare your inner organs to begin to praise the Lord by functioning optimally for you to walk in divine health / to recover your health.</p>
+
+        <p><strong>3.</strong> Command your academic / businesses / situations etc to begin to praise the Lord.</p>
+
+        <p><strong>4.</strong> Command in the name of Jesus that things / situations and circumstances of nations / countries etc begin to praise the Lord that…</p>
+
+        <ul>
+            <li>Everything about Nigeria, living and dead, to begin to praise the Lord.</li>
+            <li>Gates and doors of Kandi and Perere to open up to SOL and the living in these communities to begin to praise the Lord.</li>
+            <li>Gates and doors to begin to open up for you to study in any nation (of your chosen).</li>
+            <li>Praise the Lord and command the living within the gates and doors of closed nations to open up to the gospel.</li>
+        </ul>
+        `,
+        thumbnail: "https://placehold.co/800x400/1a1a2e/ffffff?font=montserrat&text=LET+EVERYTHING+PRAISE+GOD",
+        publishedDate: "2026-02-01",
+        readTime: 3,
+        views: 0,
+        featured: false
+    },
+
+    {
+    id: 12,
+    title: "The Prophetic Season of Praise (3) — A Season of Exercising Faith",
+    slug: "the-prophetic-season-of-praise-3",
+    author: "Pastor Henry Oise",
+    category: "article",
+    subCategory: "covenant thought",
+    tags: ["Prophecy", "Faith", "Judgement", "Prayer", "Intercession", "Covenant"],
+    excerpt: "These are the days of Judgement. God is judging the systems of the world. And if His own people will put their faith to work, they will be unaffected by the numerous judgements.",
+    content: `
+        <section class="scripture-opening">
+            <p><strong>SCRIPTURE TEXTS</strong></p>
+            <p>Read <strong>Exodus 9:1–26; Malachi 3:10–18</strong></p>
+        </section>
+
+        <h3>THOUGHTS</h3>
+
+        <p><strong>These are the days of Judgement. God is judging the systems of the world. He is judging Egypt and Babylon.</strong> He is judging the gods of the systems of the world and He is also judging the demonic princes of the darkness of this world. And if His own people will put their faith to work, they will be unaffected by the numerous judgements.</p>
+
+        <blockquote>
+            <p><strong>Exodus 9:4</strong></p>
+            <p><em>"But the Lord will make a distinction between the livestock of Israel and that of Egypt, so that no animal belonging to the Israelites will die."</em></p>
+        </blockquote>
+
+        <blockquote>
+            <p><strong>Malachi 3:18</strong></p>
+            <p><em>"And you will again see the distinction between the righteous and the wicked, between those who serve God and those who do not."</em></p>
+        </blockquote>
+
+        <p>What do you think the children of Israel were doing in Goshen as God was judging the gods of Egypt? <strong>They were PRAISING THE GOD OF THEIR DELIVERANCE.</strong> This required faith — to trust God's Word that He will indeed make a distinction. You will do the same!!!</p>
+
+        <p>Believers must trust God to make distinction between believers and the wicked. And as God makes a distinction, believers must become Worshippers, who will praise God in the midst of the trials and tests and temptations going on in the world, and God will honour their faith and see to it that they will not be affected.</p>
+
+        <p><strong>Hallelujah!!!!</strong></p>
+
+        <div class="divider"></div>
+
+        <h3>Secondly, the time of judgement must also be a time of intercession.</h3>
+
+        <p>God's judgements must make us become intercessors not just Worshippers:</p>
+
+        <blockquote>
+            <p><em>"Our Father, righteous are your judgements, but as you judge the systems, let the people within these systems look to you, let them believe in you. Repent, turn, come out from the systems and serve You."</em></p>
+        </blockquote>
+
+        <p>We are told that some of the Egyptians joined the Israelites to observe the instructions of Goshen and were spared:</p>
+
+        <blockquote>
+            <p><strong>Exodus 9:20</strong></p>
+            <p><em>"Those officials of Pharaoh who feared the word of the Lord hurried to bring their slaves and their livestock inside."</em></p>
+        </blockquote>
+
+        <p>Exercise faith in the midst of the judgement, believe to see many come to the foot of the Cross this year, even via God's judgement on Babylon and Egypt.</p>
+
+        <div class="divider"></div>
+
+        <h3>Thirdly, we must put our faith to work in the midst of great trials.</h3>
+
+        <p>In <strong>Malachi 3:10–18</strong>, we are told tithing was one of the faith actions that must be carried out for God to bless their land and make a distinction between believers and other nations in a time of judgement:</p>
+
+        <blockquote>
+            <p><em>"I will prevent pests from devouring your crops, and the vines in your fields will not cast their fruit," says the Lord Almighty. "Then all the nations will call you blessed, for yours will be a delightful land," says the Lord Almighty."</em></p>
+            <p><strong>— Malachi 3:11–12</strong></p>
+        </blockquote>
+
+        <div class="divider"></div>
+
+        <h3>PRAYER POINTS</h3>
+
+        <p><strong>1.</strong> The 10 Plagues of Egypt in Order: water turning to blood, frogs, lice, flies, livestock pestilence, boils, hail, locusts, darkness, and the killing of firstborn children.</p>
+        <p><em>Ask the Lord that none of these plagues nor the diseases of Egypt will come near you or your family this year in Jesus name (Exodus 15:26).</em></p>
+
+        <p><strong>2.</strong> Ask God to hide you and all your own in the Goshen of Jesus name, and in the Goshen of the Spirit this year in JESUS name.</p>
+
+        <p><strong>3.</strong> Ask the Lord to use His judgement to draw many to repentance.</p>
+
+        <p><strong>4.</strong> Ask for <em>grace to exercise faith in the midst of judgement in the order of Malachi 3:10–18, and be an example of the faithfulness of God in the midst of excruciating and hard times.</em></p>
+        `,
+        thumbnail: "https://placehold.co/800x400/0d1b2a/ffffff?font=montserrat&text=A+SEASON+OF+EXERCISING+FAITH",
+        publishedDate: "2026-01-29",
+        readTime: 4,
         views: 0,
         featured: false
     },
