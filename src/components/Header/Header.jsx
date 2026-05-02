@@ -39,6 +39,7 @@ const Header = ({ cartCount }) => {
               <li><Link to="/" onClick={closeMenu}>Home</Link></li>
               <li><Link to="/#about" onClick={closeMenu}>About</Link></li>
               <li><Link to="/#category" onClick={closeMenu}>Categories</Link></li>
+              <li><Link to="" onClick={closeMenu}>Subscribe</Link></li>
             </ul>
 
             <div className="header-social-links">

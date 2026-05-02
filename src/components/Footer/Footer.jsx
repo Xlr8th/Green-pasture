@@ -49,13 +49,13 @@ const Footer = ({ onScrollToSection }) => {
             <li><Link to="/">Home</Link></li>
             <li><button onClick={() => scrollTo('about')}>About</button></li>
             <li><button onClick={() => scrollTo('category')}>Categories</button></li>
-            <li><button onClick={() => scrollTo('category')}>Covenant Thoughts</button></li>
+            <li><button>Subscribe</button></li>
           </ul>
         </div>
 
         {/* Categories */}
         <div className="footer-col">
-          <h3 className="footer-col-title">Topics</h3>
+          <h3 className="footer-col-title">Categories</h3>
           <ul className="footer-links">
             <li><button onClick={() => scrollTo('category')}>Word</button></li>
             <li><button onClick={() => scrollTo('category')}>Parenting</button></li>
@@ -85,8 +85,8 @@ const Footer = ({ onScrollToSection }) => {
             &copy; {currentYear} Green Pastures. All rights reserved.
           </p>
           <p className="footer-credit">
-            Crafted with <span className="footer-heart">♥</span> by{' '}
-            <span className="footer-designer">George</span>
+            Designed by{' '}
+            <span className="footer-designer">GEORGE</span>
           </p>
         </div>
       </div>

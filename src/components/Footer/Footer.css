@@ -184,7 +184,7 @@
 
 .footer-designer {
     color: var(--secondary);
-    font-style: italic;
+    font-size:medium;
 }
 
 /* ── Responsive ── */

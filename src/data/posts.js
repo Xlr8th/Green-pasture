@@ -1049,5 +1049,153 @@ export const posts = [
         views: 0,
         featured: false
     },
+
+    {
+    id: 13,
+    title: "The Prophetic Season of Praise (4) — Weaponising Your Praise",
+    slug: "the-prophetic-season-of-praise-4",
+    author: "Pastor Henry Oise",
+    category: "article",
+    subCategory: "covenant thought",
+    tags: ["Prophecy", "Praise", "Faith", "Spiritual Warfare", "Prayer", "Covenant"],
+    excerpt: "Praise is not just singing upbeat, loud songs — it is a faith-filled declaration of God's power and nature in the face of impossible circumstances that attracts the supernatural power of Heaven to bring breakthrough.",
+    content: `
+        <section class="scripture-opening">
+            <p><strong>SCRIPTURE TEXT</strong></p>
+            <p>Read <strong>Joshua 6:1–20; Psalm 149:1–9</strong></p>
+        </section>
+
+        <h3>THOUGHT</h3>
+
+        <p>In <strong>Joshua chapter 6</strong> we see God calling Israel to weaponise Praise as a weapon. God required them to obey His instructions, His people marched obediently around the impenetrable walls of Jericho <strong>and when the right moment arrived, let out a shout of praise and victory!</strong></p>
+
+        <p><strong>Hallelujah!!!!</strong></p>
+
+        <p><strong>Question:</strong> How did they weaponise Praise?</p>
+        <p><strong>Answer:</strong> FAITH.</p>
+
+        <p>Praise is weaponised by the exercise of our faith in God, as we praise and worship Him or as in this case, "shout in praise to God."</p>
+
+        <blockquote>
+            <p><em>"When the trumpets sounded, the army shouted, and at the sound of the trumpet, when the men gave a loud shout, the wall collapsed; so everyone charged straight in, and they took the city."</em></p>
+            <p><strong>— Joshua 6:20</strong></p>
+        </blockquote>
+
+        <p>Perhaps they shouted <strong>"Hallelujah!!!!"</strong></p>
+
+        <p>Whatever the case, moved by their faith, <em>God burst into their circumstances, shaking the earth and causing the walls to collapse and a great and otherwise-impossible victory to be won!</em></p>
+
+        <p>Let us realise that Praise is not just singing upbeat, loud songs, but rather a faith-filled declaration of God's power and nature in the face of impossible circumstances that attract the supernatural power of Heaven to bring breakthrough!</p>
+
+        <div class="divider"></div>
+
+        <p>A second thought I want to share today, <strong>is that in a season of judgement, we are also called to execute the judgement that is written: Psalm 149:5–9.</strong></p>
+
+        <p>For this to happen, we must learn to weaponise Praise. We can also weaponise Praise by clapping, dancing, drumming etc… but always in faith, not entertainment.</p>
+
+        <p>Our praise is our 'weapon' — one of the most powerful believers weapon you will ever use! Once again, remember, <strong>this is a weapon that can only be activated by FAITH. Our words and what we declare have the power to change the situation we are in.</strong></p>
+
+        <blockquote>
+            <p><em>Praise is therefore, among other things, a faith-filled declaration of God's power and nature in the face of impossible circumstances that attract the supernatural power of Heaven to bring breakthrough.</em></p>
+        </blockquote>
+
+        <div class="divider"></div>
+
+        <h3>PRAYERS</h3>
+
+        <p><strong>1.</strong> Thank God for the weapon of Praise — Faith in Him as we sing, clap, dance and declare His great works.</p>
+
+        <p><strong>2.</strong> Thank God for the privilege of executing the judgement that is written, especially on false gods and the demonic (see Jeremiah 10:11).</p>
+
+        <p><strong>3.</strong> As a spiritual exercise: Use Jeremiah 10:11 to execute the judgement that is written against:</p>
+        <ul>
+            <li>Your life and destiny.</li>
+            <li>Your family / business / ministry / community.</li>
+            <li>Against Nigeria and Benin republic.</li>
+        </ul>
+
+        <blockquote>
+            <p><strong>Jeremiah 10:11</strong></p>
+            <p><em>"Tell them this: 'These gods, who did not make the heavens and the earth, will perish from the earth and from under the heavens.'"</em></p>
+        </blockquote>
+
+        <p><strong>4.</strong> With clapping and dancing (if you can), declare the high praises of our God.</p>
+        `,
+        thumbnail: "https://placehold.co/800x400/1a0a2e/ffffff?font=montserrat&text=WEAPONISING+YOUR+PRAISE",
+        publishedDate: "2026-01-28",
+        readTime: 4,
+        views: 0,
+        featured: false
+    },
+
+    {
+    id: 14,
+    title: "The Prophetic Season of Praise (5) — Seeing Holiness, Walking Separate",
+    slug: "the-prophetic-season-of-praise-5",
+    author: "Pastor Henry Oise",
+    category: "article",
+    subCategory: "covenant thought",
+    tags: ["Holiness", "Prophecy", "Praise", "Worship", "Separation", "Covenant"],
+    excerpt: "During deep praise and worship, His Holiness is what we see. His holiness is the crown of all that God is — and in a season of judgement, it is His greatest clarion call.",
+    content: `
+        <section class="scripture-opening">
+            <p><strong>SCRIPTURE TEXT</strong></p>
+            <p>Read <strong>Isaiah 6:1–7; Revelation 4:1–11; 2 Corinthians 6:14–18</strong></p>
+        </section>
+
+        <h3>THOUGHT</h3>
+
+        <p>When they exalted God in praise and in worship, Angels don't cry out and say, <em>"Eternal, Eternal, Eternal,"; they don't say, "Faithful, Faithful, Faithful,"; "Wise, Wise, Wise"; or "Mighty, Mighty, Mighty."</em> They say, <strong>"Holy, Holy, Holy, is the Lord God, the Almighty" (Revelation 4:8).</strong></p>
+
+        <p>Of course, God is eternal, faithful, wise, and mighty, <em>but during deep praise and in worship, His Holiness is what we see. His holiness is the crown of all that God is.</em></p>
+
+        <p><strong>Exodus 15:11</strong> asks:</p>
+
+        <blockquote>
+            <p><em>"Who is like You among the gods, O Lord? Who is like You, majestic in holiness, awesome in praises, working wonders?"</em></p>
+        </blockquote>
+
+        <p>The answer, of course, is that no being is equal to God in holiness. In fact, holiness is so uniquely and exclusively an attribute of God that <strong>Psalm 111:9</strong> says, <strong><em>"Holy and awesome is His name."</em></strong> That doesn't merely mean that the name of God is sacred and sanctified; it means holiness is so much the essence of God's character that Holy is one of the names God goes by.</p>
+
+        <p>Now in a season of judgement, God's holy character is deeply on display and since He doesn't want us to be a part of the judgement of Babylon, He calls out for us to come out of Babylon:</p>
+
+        <blockquote>
+            <p><em>"Therefore come out from them and be separate, says the Lord. Touch no unclean thing, and I will receive you."</em></p>
+            <p><strong>— 2 Corinthians 6:17</strong></p>
+        </blockquote>
+
+        <p>In the season of Prophetic Praise, Holiness is the highest revelation God wants us to grasp, and it's God's great clarion call:</p>
+
+        <blockquote>
+            <p><em>"Then I heard another voice from heaven say: 'Come out of her, my people, so that you will not share in her sins, so that you will not receive any of her plagues.'"</em></p>
+            <p><strong>— Revelation 18:4</strong></p>
+        </blockquote>
+
+        <div class="divider"></div>
+
+        <h3>PRAYERS</h3>
+
+        <p><strong>1.</strong> Sing with the ascended Saints:</p>
+        <blockquote>
+            <p><em>"Who is like You among the gods, O Lord? Who is like You, majestic in holiness, awesome in praises, working wonders?"</em></p>
+            <p><strong>— Exodus 15:11</strong></p>
+        </blockquote>
+
+        <p><strong>2.</strong> Sing with the Angels and Seraphs:</p>
+        <blockquote>
+            <p><em>"Holy, holy, holy is the Lord Almighty; the whole earth is full of his glory."</em></p>
+            <p><strong>— Isaiah 6:3</strong></p>
+        </blockquote>
+
+        <p><strong>3.</strong> Ask for grace to go into the depth of praise and worship and to continually see His Holiness this year.</p>
+
+        <p><strong>4.</strong> If there is any unequal yoking with Babylon in your life, repent before God <strong>and make a commitment to stay out of Babylon this year.</strong> Babylon is being judged.</p>
+        `,
+        thumbnail: "https://placehold.co/800x400/0a1a0d/ffffff?font=montserrat&text=SEEING+HOLINESS+WALKING+SEPARATE",
+        publishedDate: "2026-01-27",
+        readTime: 4,
+        views: 0,
+        featured: false
+    },
     
 ];
