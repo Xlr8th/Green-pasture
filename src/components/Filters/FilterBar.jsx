@@ -9,7 +9,7 @@ const FilterBar = ({ currentFilter, onFilter, currentSubCategory, onSubCategory,
     { label: '📚 Books', category: 'book' },
     { label: '🎥 Videos', category: 'video' },
     { label: '🎧 Podcasts', category: 'audio' },
-  ];
+  ]; //later in the future we will use this
 
   const subCategories = [
     { subCategory: 'all', subLabel: 'All Articles' },
@@ -17,34 +17,24 @@ const FilterBar = ({ currentFilter, onFilter, currentSubCategory, onSubCategory,
     { subCategory: 'parenting', subLabel: 'Parenting' },
     { subCategory:'marriage', subLabel: 'Marriage' },
     { subCategory: 'lifestyle', subLabel: 'Lifestyle' },
+    { subCategory: 'covenant_thought', subLabel: 'Covenant thoughts'}
   ];
 
   return (
     <section className="filters">
       <div className="container">
         <div className="filter-buttons">
-          {filters.map(({category, label}) => (
+          {subCategories.map(({subCategory, subLabel}) => (
             <FilterButton
-              key={category} 
-              currentFilter={currentFilter}
-              onFilter={onFilter}
-              category={category}
-              label={label}
+              key={subCategory} 
+              currentSubCategory={currentSubCategory}
+              onSubCategory={onSubCategory}
+              subCategory={subCategory}
+              label={subLabel}
             />
           ) )}
         </div>
-        
-        {currentFilter === 'article' && 
-          <div className='subcategory-buttons'>
-            {subCategories.map(({subCategory, subLabel}) => (
-              <button 
-                className={`subcategory-btn ${subCategory === currentSubCategory ? 'active' : ''}`} onClick={() => onSubCategory(subCategory)} key={subCategory}
-              >
-                {subLabel}
-              </button>
-            ))}            
-          </div>
-        }        
+              
 
         <div className="sort-container">
           <label>Sort by:</label>

@@ -5,7 +5,7 @@
     right: 15px;
     bottom: 15px;
     z-index: 1;
-    background-color: var(--primary-dark);
+    background-color: #E8F5E9;
     width: 40px;
     height: 40px;
     border-radius: 4px;
@@ -18,13 +18,13 @@
   
 .scroll-top span {
     font-size: 24px;
-    color: var(--bg-primary);
+    color: var(--primary-dark);
     line-height: 0;
 }
   
 .scroll-top:hover {
-    background-color: color-mix(in srgb, var(--primary-dark), transparent 20%);
-    color: #ffffff;
+    background-color: color-mix(in srgb, #E8F5E9, transparent 20%);
+    color: var(--primary-dark);
 }
   
 .scroll-top.active {

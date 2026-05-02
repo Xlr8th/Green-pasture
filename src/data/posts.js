@@ -413,139 +413,284 @@ export const posts = [
     },
 
     {
-        id: 6,
-        title: "Eloquent JavaScript (4th Edition)",
-        slug: "eloquent-javascript",
-        author: "Marijn Haverbeke",
-        category: "book",
-        tags: ["JavaScript", "Programming", "Book"],
-        excerpt: "A modern introduction to programming with JavaScript. Perfect for beginners and intermediate developers.",
-        content: `
-            <p>Eloquent JavaScript teaches you to write beautiful, effective code through engaging examples and challenging exercises.</p>
-            <h3>Why This Book?</h3>
-            <p>It goes beyond syntax to teach you how to think like a programmer.</p>
+    id: 6,
+    title: "Let the Children Come 2",
+    slug: "let-the-children-come-2",
+    author: "Edith Akhere Oise",
+    category: "article",
+    subCategory: "parenting",
+    tags: ["Parenting", "Children", "Safe Space", "Communication", "Family", "Emotional Intelligence"],
+    excerpt: "Creating a safe space for our children is less about doing more and more, and more about doing some things differently. It starts with emotional control, real listening, and the humility to apologise.",
+    content: `
+        <section>
+            <p>We began discussing this topic in the last session, and I believe there is more to be said on the issue.</p>
+            <p>If we're to be honest, we would realise that creating a safe space for our children is less about doing <em>more and more</em>, and more about doing some things <em>differently.</em> It would mean that we become more intentional, more consistent, and even more humble.</p>
+        </section>
+
+        <section>
+            <h3>The Gap We Don't Like to Admit</h3>
+            <p>One gnawing gap is how adults respond to this issue. Many parents say they want honesty from their children; but often react with anger, panic, or punishment when a child actually opens up, especially if what is being revealed is uncomfortable.</p>
+            <blockquote>
+                <p><em>So, over time, children learn that it's much safer to keep quiet than to speak up.</em></p>
+            </blockquote>
+        </section>
+
+        <section>
+            <h3>What Needs to Change</h3>
+
+            <h4>1. Emotional Control</h4>
+            <p>What parents and guardians need to improve on first and foremost is their emotional control. They need to learn to <strong>respond first with calm, then with guidance.</strong></p>
+
+            <h4>2. Truly Listening</h4>
+            <p>They need to not just listen, but truly hear the heart of their children.</p>
+            <p>Oftentimes, children get interrupted, corrected, or dismissed mid-sentence by their parents. That sends a subtle message that their voice doesn't carry weight; that their thoughts or feelings don't matter.</p>
+            <p>What should parents do while their children speak? <strong>Slow down. Make eye contact. Let them finish.</strong></p>
+            <blockquote>
+                <p><em>These small shifts matter more than big lectures and speeches.</em></p>
+            </blockquote>
+
+            <h4>3. Respecting Children as Individuals</h4>
+            <p>In many homes, children are expected to obey and not express themselves. Safety, however, grows where there is mutual respect. When children feel their thoughts and feelings are taken seriously, they're more likely to speak up again.</p>
+
+            <h4>4. Consistency</h4>
+            <p>If a parent is approachable one day and explosive the next, a child won't risk opening up. Emotional safety isn't built on occasional kindness.</p>
+            <blockquote>
+                <p><em>It is built on predictability.</em></p>
+            </blockquote>
+
+            <h4>5. The Humility to Apologise</h4>
+            <p>Many adults need to get better at apologising. African parents especially think apologising to their children when they are wrong is a show of weakness. <strong>That's wrong.</strong> The ability to apologise when in the wrong is a strength.</p>
+            <p>When parents can admit, <em>"I overreacted"</em> or <em>"I should have listened better,"</em> it teaches children that relationships can be repaired. It teaches them that people can disagree and still be on good terms. It teaches them that speaking up won't destroy the connection; but rather strengthen it.</p>
+
+            <h4>6. Creating Opportunities for Conversation</h4>
+            <p>Not every child will open up randomly. Some need gentle check-ins, shared activities, or quiet moments where they feel less pressure. This is especially important when you haven't always been a listening parent and are working to change.</p>
+        </section>
+
+        <section>
+            <h3>The Question That Reveals Everything</h3>
+            <p>At the core of all this is one question every parent should sit with and reflect on honestly:</p>
+            <blockquote>
+                <p><em>"If my child had something really difficult to say or share; would I be the safest person they could come to?"</em></p>
+                <p><em>"Or would they see me as the last person to come to?"</em></p>
+            </blockquote>
+            <p>That answer often reveals exactly what needs to change.</p>
+        </section>
+
+        <section>
+            <h3>Your Turn</h3>
+            <p>What's one thing you've seen adults do that either shuts children down; or helps them open up? Share in the comments below.</p>
+        </section>
         `,
-        thumbnail: "https://images.unsplash.com/photo-1532012197267-da84d127e765?w=800",
-        price: 12000,
-        inStock: true,
-        publishedDate: "2023-12-05",
-        rating: 4.9,
-        pages: 472,
+        thumbnail: "https://images.unsplash.com/photo-1543342384-1f1350e27861?w=800",
+        publishedDate: "2026-04-18",
+        readTime: 5,
+        views: 0,
         featured: false
     },
+
     {
-        id: 7,
-        title: "Understanding Asynchronous JavaScript",
-        slug: "understanding-async-js",
-        author: "Chidi Nwosu",
-        category: "article",
-        subCategory: "marriage", 
-        tags: ["JavaScript", "Async", "Promises"],
-        excerpt: "Deep dive into callbacks, promises, and async/await. Master asynchronous programming in JavaScript.",
-        content: `
-            <p>Asynchronous programming is one of the most important concepts in JavaScript. This article breaks it down step by step.</p>
-            <h3>From Callbacks to Async/Await</h3>
-            <p>We'll trace the evolution of async patterns in JavaScript and show you the best practices for 2024.</p>
+    id: 7,
+    title: "I May Not Like You, But I Do Love You!",
+    slug: "i-may-not-like-you-but-i-do-love-you",
+    author: "Edith Akhere Oise",
+    category: "article",
+    subCategory: "lifestyle",
+    tags: ["Love", "Agape", "Faith", "Relationships", "Christian Living", "Lifestyle"],
+    excerpt: "There's a huge disparity between 'like' and 'love'. Liking says, 'I enjoy you.' Love says, 'I am for you.' And the deepest love shows itself most clearly when liking has every reason to withdraw.",
+    content: `
+        <p>So, I am thinking…</p>
+
+        <p>There's a huge disparity between <strong>'like'</strong> and <strong>'love'</strong>.</p>
+
+        <p>"Like" is often about preference. It has to do with delight, compatibility, enjoyment, admiration. You like what feels pleasant, agreeable, beautiful, easy to be with. Liking is often responsive; you like because something in the other evokes pleasure or approval.</p>
+
+        <p>Love, on the other hand, is something much sturdier. It can exist even where preference has died. Love can survive where liking does not.</p>
+
+        <p>To say <em>"I love you but I don't like you right now"</em> might sound contradictory until you see that they operate on entirely different planes.</p>
+
+        <h3>The Difference in Practice</h3>
+
+        <p>Take for example; you may dislike someone's temperament, their life choices, what they've become, the pain they cause, even their company. Yet still will their good.</p>
+
+        <p>That last phrase is very important.</p>
+
+        <blockquote>
+            <p><em>Love often reveals itself not in enjoyment of a person, but in willing their good; sometimes at a cost to yourself.</em></p>
+        </blockquote>
+
+        <p>That is why a parent may be heartbroken by a child's rebellion and still sacrifice everything for them. This is why siblings who can barely stand each other will defend one another instantly when the need arises. This is also why someone can remain devoted to a difficult spouse through illness, addiction, or failure.</p>
+
+        <p>The liking may have eroded, but the love remains.</p>
+
+        <p>While liking says, <em>"I enjoy you,"</em> love says, <em>"I am for you."</em> That is a profound difference.</p>
+
+        <h3>What Each One Asks</h3>
+
+        <p>Liking often asks: Do I want to be around you? Do you please me? Do I feel warmth toward you? Or if I may coin it better, <em>"What is in it for me should I do 'you'?"</em></p>
+
+        <p>Love, however, asks: What do you need? How can I seek your good? What do I owe in fidelity, mercy, sacrifice?</p>
+
+        <blockquote>
+            <p><em>One is often emotional resonance. The other can become moral action.</em></p>
+        </blockquote>
+
+        <h3>Rooted in the Lover, Not the Beloved</h3>
+
+        <p>Now, I think it is only proper that I explain that the love I am talking about is not that which is rooted in the loveliness of the beloved, but rather in that of the lover.</p>
+
+        <p>We are not talking about an affection that says, <em>"I love you because you are lovable,"</em> but rather one that says, <em>"I love you, therefore I move toward you even in your unloveliness."</em></p>
+
+        <p>This is a radically different kind of love.</p>
+
+        <p>It is <strong>AGAPE.</strong></p>
+
+        <p>That's the kind of love God is and wants us to come into also.</p>
+
+        <h3>God's Illustration</h3>
+
+        <p>God shows us a picture of this love when He chose us even when He didn't have to. When we didn't deserve it. He didn't like what we had become. He found our presence repugnant, yet He came, bearing salvation in His wake, as He was led to the slaughter.</p>
+
+        <p>He might not have liked what we had become, but He loved us. He loved us beneath and beyond what we had become. God hated the sin in us and what it had turned us into, yet He loved us.</p>
+
+        <blockquote>
+            <p><em>He proved to us beyond reasonable doubt that His love does not require our approval.</em></p>
+        </blockquote>
+
+        <p>In fact, His love constantly appears precisely where approval is impossible.</p>
+
+        <h3>When Liking Ends, Love Begins</h3>
+
+        <p>Sometimes the highest forms of love begin where liking ends. Because then love is no longer sustained by charm, chemistry, reciprocity, or pleasure. It becomes chosen, purified, costly; almost covenantal.</p>
+
+        <p>Anyone can love what delights or pleases them. It is another thing entirely to love what wounds, disappoints, or repels.</p>
+
+        <p>Liking is drawn toward what pleases. Love remains even when pleasure disappears. Liking enjoys the beloved. Love seeks the beloved's good.</p>
+
+        <blockquote>
+            <p><em>And the deepest love shows itself most clearly when liking has every reason to withdraw.</em></p>
+        </blockquote>
+
+        <p>Honestly, <strong>"You can love those whom you do not like."</strong></p>
+
+        <p>This is why our Lord Jesus could boldly ask of us in <strong>Matthew 5:44:</strong></p>
+
+        <blockquote>
+            <p><em>"But I say to you, love your enemies, bless those who curse you, do good to those who hate you, and pray for those who spitefully use you and persecute you…"</em></p>
+        </blockquote>
         `,
-        thumbnail: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800",
-        publishedDate: "2024-01-28",
-        readTime: 15,
-        views: 3200,
-        featured: false
-    },
-    {
-        id: 8,
-        title: "The JavaScript Podcast - Episode 42: ES6 Features",
-        slug: "js-podcast-es6",
-        author: "JS Party",
-        category: "audio",
-        tags: ["JavaScript", "ES6", "Podcast"],
-        excerpt: "Join us as we discuss the most important ES6 features and how they've changed JavaScript development.",
-        audioUrl: "https://example.com/podcast-es6.mp3",
-        thumbnail: "https://images.unsplash.com/photo-1478737270239-2f02b77fc618?w=800",
-        duration: "45:00",
-        publishedDate: "2024-01-25",
-        views: 8900,
-        featured: false
-    },
-    {
-        id: 9,
-        title: "Next.js 14 - Complete Developer Guide",
-        slug: "nextjs-14-guide-video",
-        author: "Traversy Media",
-        category: "video",
-        tags: ["Next.js", "React", "Tutorial"],
-        excerpt: "Learn Next.js 14 from scratch. Build full-stack applications with the latest features including Server Components and Actions.",
-        videoUrl: "https://www.youtube.com/embed/example",
-        thumbnail: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800",
-        duration: "3:15:00",
-        publishedDate: "2024-02-05",
-        views: 52000,
-        featured: true
-    },
-    {
-        id: 10,
-        title: "You Don't Know JS Yet (Book Series)",
-        slug: "you-dont-know-js",
-        author: "Kyle Simpson",
-        category: "book",
-        tags: ["JavaScript", "Deep Dive", "Book"],
-        excerpt: "The definitive deep dive into JavaScript. This series covers scope, closures, objects, prototypes, and more.",
-        content: `
-            <p>Go beyond surface-level understanding and truly master JavaScript with this acclaimed book series.</p>
-            <h3>Complete Series Includes:</h3>
-            <ul>
-                <li>Get Started</li>
-                <li>Scope & Closures</li>
-                <li>Objects & Classes</li>
-                <li>Types & Grammar</li>
-                <li>Sync & Async</li>
-                <li>ES.Next & Beyond</li>
-            </ul>
-        `,
-        thumbnail: "https://images.unsplash.com/photo-1512820790803-83ca734da794?w=800",
-        price: 25000,
-        inStock: true,
-        publishedDate: "2023-10-15",
-        rating: 5.0,
-        pages: 1200,
-        featured: true
-    },
-    {
-        id: 11,
-        title: "CSS Grid vs Flexbox: When to Use Each",
-        slug: "css-grid-vs-flexbox",
-        author: "Ngozi Eze",
-        category: "article",
-        subCategory: "parenting",
-        tags: ["CSS", "Layout", "Web Design"],
-        excerpt: "Understanding the differences between CSS Grid and Flexbox, and knowing when to use each for optimal layouts.",
-        content: `
-            <p>Both Grid and Flexbox are powerful layout tools, but they excel in different scenarios.</p>
-            <h3>Flexbox: One-Dimensional Layouts</h3>
-            <p>Perfect for navigation bars, card layouts, and centering content.</p>
-            <h3>Grid: Two-Dimensional Layouts</h3>
-            <p>Ideal for page layouts, image galleries, and complex designs.</p>
-        `,
-        thumbnail: "https://images.unsplash.com/photo-1507721999472-8ed4421c4af2?w=800",
-        publishedDate: "2024-02-08",
+        thumbnail: "https://images.unsplash.com/photo-1474552226712-ac0f0961a954?w=800",
+        publishedDate: "2026-04-29",
         readTime: 6,
-        views: 1560,
+        views: 0,
         featured: false
     },
+
     {
-        id: 12,
-        title: "Web Development Podcast - Career Tips for Junior Devs",
-        slug: "webdev-podcast-career-tips",
-        author: "Syntax FM",
-        category: "audio",
-        tags: ["Career", "Web Development", "Podcast"],
-        excerpt: "Practical advice for junior developers looking to advance their careers and build impressive portfolios.",
-        audioUrl: "https://example.com/career-tips.mp3",
-        thumbnail: "https://images.unsplash.com/photo-1590650153855-d9e808231d41?w=800",
-        duration: "52:00",
-        publishedDate: "2024-02-12",
-        views: 6700,
+    id: 8,
+    title: "The Subtle Spirit of Rebellion",
+    slug: "the-subtle-spirit-of-rebellion",
+    author: "Edith Akhere Oise",
+    category: "article",
+    subCategory: "word",
+    tags: ["Rebellion", "Discernment", "Faith", "Scripture", "Leadership", "Christian Living"],
+    excerpt: "Rebellion isn't always loud. Some of the most dangerous forms are quiet; so subtle, they even become alluring. This is how it works, and how to guard against it.",
+    content: `
+        <section class="scripture-opening">
+            <p><strong>Proverbs 16:29 TPT</strong></p>
+            <blockquote>
+                <p><em>"A vicious criminal can be persuasive, enticing others to join him as partners in crime, but he leads them all down a despicable path."</em></p>
+            </blockquote>
+        </section>
+
+        <p>Rebellion isn't always loud. In fact, most times, it isn't.</p>
+
+        <p>When we think about rebellion, we often imagine open confrontation; someone speaking against authority, resisting laid down rules, or causing visible disruption. But that's not always how it works.</p>
+
+        <blockquote>
+            <p><em>Some of the most dangerous forms of rebellion are actually quiet. So subtle, it even becomes alluring.</em></p>
+        </blockquote>
+
+        <h3>How It Works</h3>
+
+        <p>There is a kind of rebellion that doesn't come fighting. It comes <em>agreeing.</em> It comes with the face of a caring and understanding listener. And that's exactly what makes it so effective.</p>
+
+        <p>Instead of attacking leadership directly, this kind of rebellion works around it. It positions itself in such a way that, if you're not discerning, you might even think it's helpful or supportive. It doesn't look like opposition; it looks like concern.</p>
+
+        <p>Rather than confronting the leader, it focuses on the people connected to the leader. It begins to win their hearts first, until they are completely won over.</p>
+
+        <p>For example, in a church setting, this kind of rebellion may not go after the pastor immediately. Instead, it goes after the congregation. It listens to their frustrations, validates their feelings, and slowly builds trust. And over time, something subtle begins to happen; loyalty starts to shift. Attention gradually moves from the legally constituted authority and is freely taken elsewhere.</p>
+
+        <div class="divider"></div>
+
+        <h3>The Pattern of Absalom</h3>
+
+        <p>This pattern isn't new. We see a very clear example in Scripture through the story of Absalom.</p>
+
+        <p>Absalom didn't wake up one day and openly challenge his father, King David. No; he was far more strategic than that.</p>
+
+        <p><strong>First, he positioned himself.</strong> After returning from exile through Joab's intervention, he spent time restoring his relationship with the king. This reconciliation was critical; because you cannot effectively undermine what you do not have access to. So he made sure he was back in good standing before doing anything else.</p>
+
+        <p><strong>Then he quietly began to lay the groundwork.</strong> He would go to the city gate, where people came with their cases and concerns. Instead of ignoring them, he would engage them. He listened to their problems. He asked personal questions; the kind that showed he cared. He showed interest in their lives in ways that probably felt refreshing.</p>
+
+        <p>Can you see how disarming that is?</p>
+
+        <p>Then he would go a step further. Absalom would validate their frustrations, agree that they were being overlooked, and tell them they deserved better…</p>
+
+        <p>…and then, almost casually, he would say something like:</p>
+
+        <blockquote>
+            <p><em>"If only I were the judge… I would make sure you get justice."</em>; 2 Samuel 15:4</p>
+        </blockquote>
+
+        <p>At face value, it sounds empathetic and noble. But underneath, something else is happening. He's not just helping people feel heard; he's quietly undermining the authority of the king.</p>
+
+        <blockquote>
+            <p><em>This is how rebellion begins. It doesn't start with a sword. It starts with a suggestion.</em></p>
+        </blockquote>
+
+        <p>Scripture tells us that over time, Absalom <strong>"stole the hearts of the men of Israel."</strong> Notice that word; <em>stole.</em> That means it wasn't obvious. It wasn't forceful. It was gradual. It was only after he had gained enough influence that he moved into open rebellion.</p>
+
+        <div class="divider"></div>
+
+        <h3>This Pattern Still Exists Today</h3>
+
+        <p>There are people who won't openly oppose authority at first. Instead, they will draw close to those who are hurting. They'll affirm their pain, agree with their offenses, and offer comfort; but at the same time, they'll begin to plant seeds of distrust.</p>
+
+        <p>Outwardly, they may still appear loyal and respectful. But privately, they're dividing hearts.</p>
+
+        <p>That's why this kind of rebellion is so dangerous. It rarely sounds like rebellion. It often sounds like wisdom, like care. It sounds like someone who is <em>"just trying to help."</em></p>
+
+        <p>But here's the question we need to learn to ask:</p>
+
+        <blockquote>
+            <p><em>"Is this voice healing me; or subtly redirecting me?"</em></p>
+        </blockquote>
+
+        <p>Satan didn't approach Eve with obvious evil. He came with what seemed like insight; a new revelation! He came as if he was helping her see <em>"more."</em> That's the pattern: truth mixed with subtle distortion.</p>
+
+        <p>Absalom followed that same pattern consistently for <strong>four years.</strong> It wasn't rushed. It was patient, calculated, and intentional. By the time he openly rebelled, he already had influence. Even the elders of Israel had been won to his side. <em>(See 2 Samuel 17:1–4)</em></p>
+
+        <h3>What This Means For Us</h3>
+
+        <p>It means we have to be <strong>discerning</strong>; not just about what is being said, but how and why it is being said.</p>
+
+        <p>The Bible warns us in <strong>Proverbs 16:28</strong> that a whisperer separates close friends. That's the nature of subtle rebellion. It divides without announcing itself.</p>
+
+        <p>Rebellion often feeds on unresolved hurt. It gives a voice to offense, makes bitterness feel justified, and slowly shifts your focus away from honor and alignment.</p>
+
+        <p>So guard your heart.</p>
+
+        <blockquote>
+            <p><em>Not every voice that understands your pain is sent to heal you. Some voices comfort you just enough to gain your trust and then quietly lead you away from where you're meant to be.</em></p>
+        </blockquote>
+
+        <p><strong>Discern carefully.</strong></p>
+        `,
+        thumbnail: "https://images.unsplash.com/photo-1519681393784-d120267933ba?w=800",
+        publishedDate: "2026-04-28",
+        readTime: 7,
+        views: 0,
         featured: false
     },
+    
 ];

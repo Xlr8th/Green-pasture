@@ -8,6 +8,7 @@ import { posts as initialPosts } from './data/posts';
 import Toast from './components/Toast/Toast.jsx';
 import Preloader from './components/Preloader/Preloader.jsx';
 import BackToTop from './components/BackToTop/BackToTop.jsx';
+import Footer from './components/Footer/Footer.jsx';
 
 const App = () => {
   const [posts, setPosts] = useState(initialPosts);
@@ -16,7 +17,7 @@ const App = () => {
   const [toastMessage, setToastMessage] = useState(null);
   const [isToastVisible, setIsToastVisible] = useState(false);
   const [preloader, setPreloader] = useState(true);
-    const [backToTop, setBackToTop] = useState(false);
+  const [backToTop, setBackToTop] = useState(false);
 
   useEffect( () => {
     //Back to top function
@@ -45,8 +46,8 @@ const App = () => {
     } 
 
     return () => {
-      removeEventListener('load', handleLoad);
-      removeEventListener('scroll', handleScroll);
+      window.removeEventListener('load', handleLoad);
+      window.removeEventListener('scroll', handleScroll);
     };
   },[]);
   
@@ -128,6 +129,8 @@ const App = () => {
       />
       <Route path="/subscribe" element={<Subscribe />} />
     </Routes>
+
+    <Footer />
   </>
   )    
 }

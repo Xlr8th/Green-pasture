@@ -1,10 +1,10 @@
 import './Filters.css'
 
-const FilterButton = ( {label, category, currentFilter, onFilter} ) => {
+const FilterButton = ( {label, subCategory, currentSubCategory, onSubCategory} ) => {
 
     return (
         <button 
-        className={`filter-btn ${category === currentFilter ? 'active' : ''}`} onClick={() => onFilter(category)}
+        className={`filter-btn ${subCategory === currentSubCategory ? 'active' : ''}`} onClick={() => onSubCategory(subCategory)}
         >
             {label}
         </button>

@@ -4,10 +4,8 @@
     box-sizing: border-box;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Lato:wght@400;500;600&display=swap');
-
 body {
-    font-family: serif;
+    font-family: Georgia, serif;
 }
 
 .logo,
@@ -15,14 +13,14 @@ body {
 .post-title,
 .create-post-header h2,
 .post-view-title {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Cormorant Garant', Georgia, serif;
 }
 
 :root {
     /* Colors */
     --primary: #2d6a4f;
     --primary-dark: #1b4332;
-    --secondary: #d4a017;
+    --secondary: #C9A84C;
     --accent: #b7883e;
     --danger: #c0392b;
     

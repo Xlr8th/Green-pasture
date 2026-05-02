@@ -4,8 +4,11 @@ import Hero from "../components/Hero/Hero";
 import PostsGrid from "../components/PostCard/PostsGrid";
 import StatsBar from "../components/Stats/StatsBar";
 import PostModal from "../components/PostModal/PostModal";
+import Welcome from "../components/Welcome/Welcome";
+import { useLocation } from "react-router-dom";
 
 const Home = ({onAddToCart, posts, showToast}) => {
+    const location = useLocation()
     //states
     const [currentFilter, setCurrentFilter] = useState('all');
     const [searchTerm, setSearchTerm] = useState('');
@@ -14,8 +17,20 @@ const Home = ({onAddToCart, posts, showToast}) => {
     const [isModalOpen, setIsModalOpen] = useState(false);
     const [selectedPost, setSelectedPost] = useState(null);
 
+    // ✅ scroll to section when hash exists
+    useEffect(() => {
+        if (location.hash) {
+            const el = document.querySelector(location.hash);
+            if (el) {
+                el.scrollIntoView({ behavior: "smooth" });
+            }
+        }
+    }, [location]);
+
 
     const getPostByCategory = (currentFilter, posts) => currentFilter === 'all' ? posts : posts.filter(post => post.category === currentFilter);
+    const getPostBySubCategory = (currentSubCategory, posts) => currentSubCategory === 'all' ? posts : posts.filter(post => post.subCategory === currentSubCategory);
+
 
     const searchPost = (searchTerm, posts) => {
         const term = searchTerm.toLowerCase().trim();
@@ -45,11 +60,7 @@ const Home = ({onAddToCart, posts, showToast}) => {
     const filteredPosts = (() => {
         let result = posts;
 
-        result = getPostByCategory(currentFilter, result);
-
-        if (currentSubCategory !== 'all') {
-            result = result.filter(post => post.subCategory === currentSubCategory);
-        }
+        result = getPostBySubCategory(currentSubCategory, result);
 
         result = searchPost(searchTerm, result);
         
@@ -84,11 +95,6 @@ const Home = ({onAddToCart, posts, showToast}) => {
         setCurrentSort(value);
     };
 
-    const handleFilter = (category) => {
-        setCurrentFilter(category);
-        setCurrentSubCategory('all');
-    };
-
     const handleSubCategory = (subCategory) => {
         setCurrentSubCategory(subCategory);
     };
@@ -102,22 +108,25 @@ const Home = ({onAddToCart, posts, showToast}) => {
                 onClose={closePost}
                 onAddToCart={onAddToCart}
             />
-            
+             
             <Hero 
                 onSearch={handleSearch}
                 searchTerm={searchTerm}
             />
-            <FilterBar 
-                currentFilter={currentFilter}
-                currentSubCategory={currentSubCategory}
-                onFilter={handleFilter}
-                onSubCategory={handleSubCategory}
-                currentSort={currentSort}
-                onSort={handleSort}
-            />
-            <StatsBar 
-                posts={filteredPosts} 
-            />
+
+            <section id="about">
+               <Welcome /> 
+            </section>
+            
+            <section id="category">
+                <FilterBar 
+                    currentSubCategory={currentSubCategory}
+                    onSubCategory={handleSubCategory}
+                    currentSort={currentSort}
+                    onSort={handleSort}
+                />
+            </section>
+
             <PostsGrid 
                 posts={filteredPosts}
                 onViewPost={openPost}
