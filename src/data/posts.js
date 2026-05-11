@@ -1197,5 +1197,82 @@ export const posts = [
         views: 0,
         featured: false
     },
+
+    {
+    id: 15,
+    title: "Back to Basics",
+    slug: "back-to-basics",
+    author: "Edith Akhere Oise",
+    category: "article",
+    subCategory: "marriage",
+    tags: ["Marriage", "Women", "Equality", "Scripture", "Africa", "Christian Living"],
+    excerpt: "Looking at the dynamics of marriage in Africa, it's hard to ignore how culture and society have, over time, placed women at a disadvantage. But what does Scripture actually say?",
+    content: `
+        <p>Looking at the dynamics of marriage in Africa, it's hard to ignore how culture and society have, over time, placed women at a disadvantage. That reality alone makes it crucial for African women to be deeply intentional about who they choose as life partners.</p>
+
+        <p>But how exactly are African women placed at a disadvantage?</p>
+
+        <h3>The Cultural Lens</h3>
+
+        <p>First, there's the long-standing cultural lens that has often viewed women as inferior to men. Yes, progress has been made, but we're not quite at the point where that idea has disappeared. Whether at home, in church, or in the workplace, it still shows up. Sometimes loudly, sometimes in quiet, almost invisible ways. Subtle but noticeable to an observant eye.</p>
+
+        <p>It is so bad that lots of women see it as the ideal.</p>
+
+        <p>Traditionally, gender roles in many African settings position men as leaders, naturally placing them in seats of power and authority. Women, on the other hand, are often expected to occupy primarily domestic roles. That structure has shaped how many of our societies function.</p>
+
+        <p>And beyond roles, there's status. Society is often arranged in a way that grants men more honor, influence, and visibility. While this varies across cultures, it remains a common baseline. It shows up in access to education, career opportunities, and leadership spaces, where men are still, more often than not, given preference.</p>
+
+        <p>There's also the economic dimension. In many communities, the man is seen as the default breadwinner, and with that comes an expectation of greater financial power. The result? Women are frequently placed in positions of dependency, which can limit their ability to make independent choices or assert autonomy.</p>
+
+        <p>Now, a bad marriage affects both parties, there is no doubt about that. However, when the odds are already stacked unevenly, the impact can be heavier on the woman. This is why choosing a partner who truly values equality, equity, and partnership is not just ideal; it is necessary.</p>
+
+        <blockquote>
+            <p><em>You see, the truth is, these odds can sink the ship before it even has a chance to sail.</em></p>
+        </blockquote>
+
+        <p>This is where I believe the church has a critical role to play.</p>
+
+        <p>Marriage is not a human invention; it is God-ordained. The very first institution established for the good of mankind. Yet, over time, its original intent has been distorted. In a world driven by survival and dominance, it's not surprising that systems begin to favor the "stronger" party, often at the expense of the other.</p>
+
+        <div class="divider"></div>
+
+        <h3>But What Does Scripture Actually Say?</h3>
+
+        <blockquote>
+            <p><strong>Galatians 3:28 (NKJV)</strong></p>
+            <p><em>"There is neither Jew nor Greek, there is neither slave nor free, there is neither male nor female; for you are all one in Christ Jesus."</em></p>
+        </blockquote>
+
+        <p>Pause and think about that.</p>
+
+        <p>The Bible presents a radical idea! Equality. Not conditioned by race, status, or gender. Equal before God. So where, then, did the notion of female inferiority come from? It certainly didn't originate from Him.</p>
+
+        <h3>Let's Go Back to the Beginning.</h3>
+
+        <blockquote>
+            <p><strong>Genesis 2:18 (NKJV)</strong></p>
+            <p><em>"And the Lord God said, 'It is not good that man should be alone; I will make him a helper comparable to him.'"</em></p>
+        </blockquote>
+
+        <p>That word <em>"comparable"</em> matters. It speaks of likeness, equality, correspondence. Not lesser, subordinate nor secondary. The woman was created as one who could stand alongside the man, not beneath him.</p>
+
+        <p>So again, we must ask, <em>"where did the idea of male superiority come from?"</em></p>
+
+        <p>This is why I believe many of the misconceptions we see in society are gaps the church is meant to fill. Yet, too often, there has been a mixture — where truth is blended with cultural bias, and Scripture is filtered through societal expectations. The result is a narrative around marriage that may feel familiar, but is quietly damaging the very institution it claims to uphold.</p>
+
+        <div class="divider"></div>
+
+        <p>And perhaps the real question is this:</p>
+
+        <blockquote>
+            <p><em>"Are we upholding God's design for marriage or simply preserving what culture has handed to us?"</em></p>
+        </blockquote>
+        `,
+        thumbnail: "https://images.unsplash.com/photo-1529634806980-85c3dd6d34ac?w=800",
+        publishedDate: "2026-05-11",
+        readTime: 6,
+        views: 0,
+        featured: false
+    },
     
 ];
