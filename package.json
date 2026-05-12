@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://Xlr8th.github.io/green-pasture",
+  "homepage": "https://greenpastureshub.com",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
